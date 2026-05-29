@@ -12,6 +12,7 @@ def home():
     return """
     <html>
     <head>
+    <meta name="google-site-verification" content="googleb1ec9dc35f7d6260" />
         <title>Abdo Tube - عبده تيوب</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
