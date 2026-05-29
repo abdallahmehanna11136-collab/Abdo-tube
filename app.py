@@ -59,7 +59,7 @@ def search():
     <head>
         <title>Abdo Tube - Results</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="google-site-verification" content="كود_جوجل_بتاعك" />
+        <meta name="google-site-verification" content="AIzaSyA1b2c3d4e5f6g7h8i9j0k" />
     </head>
     <body style="background-color: #000137; color: white; text-align: center; font-family: Arial; padding: 15px;">
         <h3>Results for: {html.escape(query)}</h3>
