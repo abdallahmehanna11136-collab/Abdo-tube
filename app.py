@@ -106,7 +106,7 @@ def download_video(video_id):
 
 @app.route('/googleb1247b73-2e6f-486c-a765-4a22f28a5254.html')
 def google_verification():
-    return "google-site-verification: googleb1247b73-2e6f-486c-a765-4a22f28a5254.html"
+    return "google-site-verification: googleb1247b73-2e6f-486c-a765-4a22f28a5254"
 
 if __name__ == '__main__':
     app.run()
