@@ -104,12 +104,9 @@ def download_video(video_id):
     except Exception as e:
         return f"Error: {str(e)}"
 
+@app.route('/googleb1247b73-2e6f-486c-a765-4a22f28a5254.html')
+def google_verification():
+    return "google-site-verification: googleb1247b73-2e6f-486c-a765-4a22f28a5254.html"
+
 if __name__ == '__main__':
     app.run()
-    # test
-@app.route('/googleb1247b73-2e6f-486c-a765-4a22f28a5254.html')
-def google_verify():
-    return "google-site-verification: googleb1247b73-2e6f-486c-a765-4a22f28a5254.html"
-    @app.route('/googleb1247b73-2e6f-486c-a765-4a22f28a5254.html')
-def google_verification():
-    return app.send_static_file('googleb1247b73-2e6f-486c-a765-4a22f28a5254.html')
