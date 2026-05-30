@@ -87,7 +87,7 @@ def download_video(video_id):
     try:
         video_url = f"https://www.youtube.com/watch?v={video_id}"
         ydl_opts = {
-            'format': 'worst[ext=mp4]/worst',
+            'format': 'best',
             'quiet': True,
             'cookiefile': 'cookies.txt',
         }
