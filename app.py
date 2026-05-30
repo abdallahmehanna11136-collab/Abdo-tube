@@ -88,7 +88,8 @@ def download_video(video_id):
         video_url = f"https://www.youtube.com/watch?v={video_id}"
         ydl_opts = {
             'format': 'worst[ext=mp4]/worst',
-            'quiet': True
+            'quiet': True,
+            'cookiefile': 'cookies.txt',
         }
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info = ydl.extract_info(video_url, download=False)
